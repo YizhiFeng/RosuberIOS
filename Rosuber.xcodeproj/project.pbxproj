@@ -1,0 +1,570 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		000F386DC900C2E3E4D84DAE /* Pods_Rosuber.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB633554A87FA51BA91F0B08 /* Pods_Rosuber.framework */; };
+		1B130B1220A9111C0076DD3E /* TripDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B130B1120A9111C0076DD3E /* TripDetailViewController.swift */; };
+		1B130B1420A9C1C90076DD3E /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B130B1320A9C1C90076DD3E /* MenuViewController.swift */; };
+		1B130B1620AA07AA0076DD3E /* TipsUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B130B1520AA07AA0076DD3E /* TipsUtils.swift */; };
+		1B2FD62C20978D2000C9E12D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1B2FD62B20978D2000C9E12D /* GoogleService-Info.plist */; };
+		1B639E7C209AAA8C002F33C5 /* FindTripsDriverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B639E7B209AAA8C002F33C5 /* FindTripsDriverViewController.swift */; };
+		1B639E7E209AAAA7002F33C5 /* FindTripsPassengerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B639E7D209AAAA7002F33C5 /* FindTripsPassengerViewController.swift */; };
+		1B639E83209B8997002F33C5 /* ImageUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B639E82209B8997002F33C5 /* ImageUtils.swift */; };
+		1B81FCEE2086F90B00C12059 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B81FCED2086F90B00C12059 /* AppDelegate.swift */; };
+		1B81FCF02086F90B00C12059 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B81FCEF2086F90B00C12059 /* HomeViewController.swift */; };
+		1B81FCF32086F90B00C12059 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B81FCF12086F90B00C12059 /* Main.storyboard */; };
+		1B81FCF52086F91300C12059 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B81FCF42086F91300C12059 /* Assets.xcassets */; };
+		1B81FCF82086F91300C12059 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B81FCF62086F91300C12059 /* LaunchScreen.storyboard */; };
+		1B81FD04208D1AA600C12059 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B81FD03208D1AA600C12059 /* ProfileViewController.swift */; };
+		1B81FD06208D1D6E00C12059 /* BottomMenuLauncher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B81FD05208D1D6E00C12059 /* BottomMenuLauncher.swift */; };
+		1B81FD08208D245400C12059 /* MenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B81FD07208D245400C12059 /* MenuCell.swift */; };
+		1B81FD0A208E115000C12059 /* LeftMenuLauncher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B81FD09208E115000C12059 /* LeftMenuLauncher.swift */; };
+		1B81FD0C208E118400C12059 /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B81FD0B208E118400C12059 /* MenuItem.swift */; };
+		1BE3118F208FB2A20094975C /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE3118E208FB2A20094975C /* AboutViewController.swift */; };
+		1BE31191208FB3140094975C /* MyTripsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE31190208FB3140094975C /* MyTripsViewController.swift */; };
+		1BE31193208FB3210094975C /* FindTripsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE31192208FB3210094975C /* FindTripsViewController.swift */; };
+		1BE31195208FB3880094975C /* MyTripDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE31194208FB3880094975C /* MyTripDetailViewController.swift */; };
+		1BE3119A208FB95E0094975C /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BE31197208FB95D0094975C /* Icon.png */; };
+		1BE3119B208FB95E0094975C /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BE31198208FB95D0094975C /* Icon@2x.png */; };
+		1BE3119C208FB95E0094975C /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BE31199208FB95E0094975C /* Icon-72.png */; };
+		1BE3119E208FF46C0094975C /* FindTripDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE3119D208FF46C0094975C /* FindTripDetailViewController.swift */; };
+		1BE311A0209019DF0094975C /* VSTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE3119F209019DF0094975C /* VSTextField.swift */; };
+		1BE311A42092A6B30094975C /* Trip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE311A32092A6B30094975C /* Trip.swift */; };
+		1BE311A62092A6C60094975C /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE311A52092A6C60094975C /* User.swift */; };
+		1BE311A82092AE3E0094975C /* NewTripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE311A72092AE3E0094975C /* NewTripViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1B130B1120A9111C0076DD3E /* TripDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripDetailViewController.swift; sourceTree = "<group>"; };
+		1B130B1320A9C1C90076DD3E /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		1B130B1520AA07AA0076DD3E /* TipsUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsUtils.swift; sourceTree = "<group>"; };
+		1B2FD62B20978D2000C9E12D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		1B639E7B209AAA8C002F33C5 /* FindTripsDriverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindTripsDriverViewController.swift; sourceTree = "<group>"; };
+		1B639E7D209AAAA7002F33C5 /* FindTripsPassengerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindTripsPassengerViewController.swift; sourceTree = "<group>"; };
+		1B639E82209B8997002F33C5 /* ImageUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageUtils.swift; sourceTree = "<group>"; };
+		1B81FCEA2086F90B00C12059 /* Rosuber.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rosuber.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B81FCED2086F90B00C12059 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1B81FCEF2086F90B00C12059 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		1B81FCF22086F90B00C12059 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1B81FCF42086F91300C12059 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1B81FCF72086F91300C12059 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1B81FCF92086F91300C12059 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B81FD03208D1AA600C12059 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		1B81FD05208D1D6E00C12059 /* BottomMenuLauncher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomMenuLauncher.swift; sourceTree = "<group>"; };
+		1B81FD07208D245400C12059 /* MenuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCell.swift; sourceTree = "<group>"; };
+		1B81FD09208E115000C12059 /* LeftMenuLauncher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftMenuLauncher.swift; sourceTree = "<group>"; };
+		1B81FD0B208E118400C12059 /* MenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
+		1BE3118E208FB2A20094975C /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		1BE31190208FB3140094975C /* MyTripsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTripsViewController.swift; sourceTree = "<group>"; };
+		1BE31192208FB3210094975C /* FindTripsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindTripsViewController.swift; sourceTree = "<group>"; };
+		1BE31194208FB3880094975C /* MyTripDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTripDetailViewController.swift; sourceTree = "<group>"; };
+		1BE31197208FB95D0094975C /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		1BE31198208FB95D0094975C /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		1BE31199208FB95E0094975C /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		1BE3119D208FF46C0094975C /* FindTripDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindTripDetailViewController.swift; sourceTree = "<group>"; };
+		1BE3119F209019DF0094975C /* VSTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VSTextField.swift; sourceTree = "<group>"; };
+		1BE311A32092A6B30094975C /* Trip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trip.swift; sourceTree = "<group>"; };
+		1BE311A52092A6C60094975C /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		1BE311A72092AE3E0094975C /* NewTripViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTripViewController.swift; sourceTree = "<group>"; };
+		70F10D04CE80D9AFCA8F49E7 /* Pods-Rosuber.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rosuber.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Rosuber/Pods-Rosuber.debug.xcconfig"; sourceTree = "<group>"; };
+		9E2418F31CAA5D8F2D08D1DF /* Pods-Rosuber.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rosuber.release.xcconfig"; path = "Pods/Target Support Files/Pods-Rosuber/Pods-Rosuber.release.xcconfig"; sourceTree = "<group>"; };
+		CB633554A87FA51BA91F0B08 /* Pods_Rosuber.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rosuber.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1B81FCE72086F90B00C12059 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				000F386DC900C2E3E4D84DAE /* Pods_Rosuber.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0217E5A09190D3BF1A6888C8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				70F10D04CE80D9AFCA8F49E7 /* Pods-Rosuber.debug.xcconfig */,
+				9E2418F31CAA5D8F2D08D1DF /* Pods-Rosuber.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		1B639E7F209AB4C9002F33C5 /* OldFiles */ = {
+			isa = PBXGroup;
+			children = (
+				1BE31192208FB3210094975C /* FindTripsViewController.swift */,
+			);
+			path = OldFiles;
+			sourceTree = "<group>";
+		};
+		1B81FCE12086F90A00C12059 = {
+			isa = PBXGroup;
+			children = (
+				1B81FCEC2086F90B00C12059 /* Rosuber */,
+				1B81FCEB2086F90B00C12059 /* Products */,
+				0217E5A09190D3BF1A6888C8 /* Pods */,
+				D14FB044BE329CC42B492B36 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1B81FCEB2086F90B00C12059 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B81FCEA2086F90B00C12059 /* Rosuber.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1B81FCEC2086F90B00C12059 /* Rosuber */ = {
+			isa = PBXGroup;
+			children = (
+				1B2FD62B20978D2000C9E12D /* GoogleService-Info.plist */,
+				1B81FCED2086F90B00C12059 /* AppDelegate.swift */,
+				1B81FCF12086F90B00C12059 /* Main.storyboard */,
+				1B81FCF42086F91300C12059 /* Assets.xcassets */,
+				1B81FCF62086F91300C12059 /* LaunchScreen.storyboard */,
+				1B81FCF92086F91300C12059 /* Info.plist */,
+				1BE311A22092A68B0094975C /* Model */,
+				1B130B1320A9C1C90076DD3E /* MenuViewController.swift */,
+				1B81FCEF2086F90B00C12059 /* HomeViewController.swift */,
+				1B81FD03208D1AA600C12059 /* ProfileViewController.swift */,
+				1B130B1120A9111C0076DD3E /* TripDetailViewController.swift */,
+				1BE31190208FB3140094975C /* MyTripsViewController.swift */,
+				1BE31194208FB3880094975C /* MyTripDetailViewController.swift */,
+				1B639E7B209AAA8C002F33C5 /* FindTripsDriverViewController.swift */,
+				1B639E7D209AAAA7002F33C5 /* FindTripsPassengerViewController.swift */,
+				1BE3119D208FF46C0094975C /* FindTripDetailViewController.swift */,
+				1BE311A72092AE3E0094975C /* NewTripViewController.swift */,
+				1BE3118E208FB2A20094975C /* AboutViewController.swift */,
+				1B639E82209B8997002F33C5 /* ImageUtils.swift */,
+				1B130B1520AA07AA0076DD3E /* TipsUtils.swift */,
+				1BE31196208FB93A0094975C /* Icons */,
+				1BE31188208FAF890094975C /* CollectionViewAttempt */,
+				1BE311A12090271B0094975C /* ThirdLibrary */,
+				1B639E7F209AB4C9002F33C5 /* OldFiles */,
+			);
+			path = Rosuber;
+			sourceTree = "<group>";
+		};
+		1BE31188208FAF890094975C /* CollectionViewAttempt */ = {
+			isa = PBXGroup;
+			children = (
+				1B81FD05208D1D6E00C12059 /* BottomMenuLauncher.swift */,
+				1B81FD07208D245400C12059 /* MenuCell.swift */,
+				1B81FD09208E115000C12059 /* LeftMenuLauncher.swift */,
+				1B81FD0B208E118400C12059 /* MenuItem.swift */,
+			);
+			path = CollectionViewAttempt;
+			sourceTree = "<group>";
+		};
+		1BE31196208FB93A0094975C /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				1BE31199208FB95E0094975C /* Icon-72.png */,
+				1BE31197208FB95D0094975C /* Icon.png */,
+				1BE31198208FB95D0094975C /* Icon@2x.png */,
+			);
+			path = Icons;
+			sourceTree = "<group>";
+		};
+		1BE311A12090271B0094975C /* ThirdLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				1BE3119F209019DF0094975C /* VSTextField.swift */,
+			);
+			path = ThirdLibrary;
+			sourceTree = "<group>";
+		};
+		1BE311A22092A68B0094975C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1BE311A32092A6B30094975C /* Trip.swift */,
+				1BE311A52092A6C60094975C /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D14FB044BE329CC42B492B36 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CB633554A87FA51BA91F0B08 /* Pods_Rosuber.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1B81FCE92086F90B00C12059 /* Rosuber */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B81FCFC2086F91300C12059 /* Build configuration list for PBXNativeTarget "Rosuber" */;
+			buildPhases = (
+				32A83BF6923C20415EC7F315 /* [CP] Check Pods Manifest.lock */,
+				1B81FCE62086F90B00C12059 /* Sources */,
+				1B81FCE72086F90B00C12059 /* Frameworks */,
+				1B81FCE82086F90B00C12059 /* Resources */,
+				5C4C424EF48AB4DF9E1C8126 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Rosuber;
+			productName = Rosuber;
+			productReference = 1B81FCEA2086F90B00C12059 /* Rosuber.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1B81FCE22086F90A00C12059 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = FengYizhi;
+				TargetAttributes = {
+					1B81FCE92086F90B00C12059 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = 1B81FCE52086F90A00C12059 /* Build configuration list for PBXProject "Rosuber" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1B81FCE12086F90A00C12059;
+			productRefGroup = 1B81FCEB2086F90B00C12059 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1B81FCE92086F90B00C12059 /* Rosuber */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1B81FCE82086F90B00C12059 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BE3119A208FB95E0094975C /* Icon.png in Resources */,
+				1B81FCF82086F91300C12059 /* LaunchScreen.storyboard in Resources */,
+				1B81FCF52086F91300C12059 /* Assets.xcassets in Resources */,
+				1B81FCF32086F90B00C12059 /* Main.storyboard in Resources */,
+				1BE3119B208FB95E0094975C /* Icon@2x.png in Resources */,
+				1BE3119C208FB95E0094975C /* Icon-72.png in Resources */,
+				1B2FD62C20978D2000C9E12D /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		32A83BF6923C20415EC7F315 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Rosuber-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5C4C424EF48AB4DF9E1C8126 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Rosuber/Pods-Rosuber-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL/openssl.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/MDFInternationalization/MDFInternationalization.framework",
+				"${BUILT_PRODUCTS_DIR}/MDFTextAccessibility/MDFTextAccessibility.framework",
+				"${BUILT_PRODUCTS_DIR}/MaterialComponents/MaterialComponents.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/Rosefire/Rosefire.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC/GRPCClient.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-ProtoRPC/ProtoRPC.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-RxLibrary/RxLibrary.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MDFInternationalization.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MDFTextAccessibility.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MaterialComponents.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Rosefire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GRPCClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProtoRPC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxLibrary.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Rosuber/Pods-Rosuber-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1B81FCE62086F90B00C12059 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B639E83209B8997002F33C5 /* ImageUtils.swift in Sources */,
+				1B81FD0C208E118400C12059 /* MenuItem.swift in Sources */,
+				1B81FD04208D1AA600C12059 /* ProfileViewController.swift in Sources */,
+				1B81FD08208D245400C12059 /* MenuCell.swift in Sources */,
+				1BE31193208FB3210094975C /* FindTripsViewController.swift in Sources */,
+				1BE311A0209019DF0094975C /* VSTextField.swift in Sources */,
+				1BE31195208FB3880094975C /* MyTripDetailViewController.swift in Sources */,
+				1B130B1620AA07AA0076DD3E /* TipsUtils.swift in Sources */,
+				1BE31191208FB3140094975C /* MyTripsViewController.swift in Sources */,
+				1B81FCF02086F90B00C12059 /* HomeViewController.swift in Sources */,
+				1BE311A62092A6C60094975C /* User.swift in Sources */,
+				1B130B1420A9C1C90076DD3E /* MenuViewController.swift in Sources */,
+				1B130B1220A9111C0076DD3E /* TripDetailViewController.swift in Sources */,
+				1BE3119E208FF46C0094975C /* FindTripDetailViewController.swift in Sources */,
+				1B81FD0A208E115000C12059 /* LeftMenuLauncher.swift in Sources */,
+				1B81FCEE2086F90B00C12059 /* AppDelegate.swift in Sources */,
+				1BE3118F208FB2A20094975C /* AboutViewController.swift in Sources */,
+				1BE311A42092A6B30094975C /* Trip.swift in Sources */,
+				1B639E7C209AAA8C002F33C5 /* FindTripsDriverViewController.swift in Sources */,
+				1B639E7E209AAAA7002F33C5 /* FindTripsPassengerViewController.swift in Sources */,
+				1BE311A82092AE3E0094975C /* NewTripViewController.swift in Sources */,
+				1B81FD06208D1D6E00C12059 /* BottomMenuLauncher.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1B81FCF12086F90B00C12059 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B81FCF22086F90B00C12059 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1B81FCF62086F91300C12059 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B81FCF72086F91300C12059 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1B81FCFA2086F91300C12059 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1B81FCFB2086F91300C12059 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1B81FCFD2086F91300C12059 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70F10D04CE80D9AFCA8F49E7 /* Pods-Rosuber.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 784G6DP2V5;
+				INFOPLIST_FILE = Rosuber/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.rosehulman.fengy2.Rosuber;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1B81FCFE2086F91300C12059 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E2418F31CAA5D8F2D08D1DF /* Pods-Rosuber.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 784G6DP2V5;
+				INFOPLIST_FILE = Rosuber/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.rosehulman.fengy2.Rosuber;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B81FCE52086F90A00C12059 /* Build configuration list for PBXProject "Rosuber" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B81FCFA2086F91300C12059 /* Debug */,
+				1B81FCFB2086F91300C12059 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B81FCFC2086F91300C12059 /* Build configuration list for PBXNativeTarget "Rosuber" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B81FCFD2086F91300C12059 /* Debug */,
+				1B81FCFE2086F91300C12059 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1B81FCE22086F90A00C12059 /* Project object */;
+}
